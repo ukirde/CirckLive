@@ -1,0 +1,25 @@
+
+<header class="bg-blue-500 text-white p-4 main">
+  <div class="container mx-auto flex justify-between items-center">
+    
+      <a class="navbar-brand " href="#">
+        <img class="transparent-bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1F3YLkMmfqiOmLrqHLbj8p1IGWrueKAgwA&s" alt="" width="45" height="30">
+      </a>
+    
+  <div class="text-2x1 font-bold abc">
+  CrickLive
+  </div>
+  <nav class="flex space-x-4 ">
+  <a [routerLink]="'/home'" class="hover:underline a1">Home</a>
+  <a [routerLink]="'/live'" class="hover:underline a1">Live Matches</a>
+  <a [routerLink]="'/history'" class="hover:underline a1">History Matches</a>
+  <a [routerLink]="'/point-table'" class="hover:underline a1">Point Table</a>
+  </nav>
+  <div>
+
+  </div>
+  </div>
+  </header>
+  <div class="px-15 py-10">
+  <router-outlet></router-outlet>
+  </div>

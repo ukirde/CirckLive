@@ -1,0 +1,13 @@
+.abc{
+    font-size: 25px;
+    position: absolute;
+    left: 90px;
+}
+.main{
+    border: 2px solid black;
+    padding: 10px 5px;
+}
+.a1{
+    font-size: 18px;
+    font-weight: 600;
+}
